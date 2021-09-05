@@ -6,7 +6,7 @@ html, body {
 }
 
 #nav-1 {
-    border: 1px black soli;
+    border-right: 1px black solid;
     position: fixed;
     min-width: 290px;
     width: 300px;
@@ -28,9 +28,17 @@ html, body {
 }
 
 #nav-1 li {
-    border: 1px black soli;
-    list-style: none;
-    position: relative;
     border-top: 1px solid;
+    list-style: none;
     width: 100%;
+    padding-top: 20px;
+}
+
+#last-li {
+    border-bottom: 1px solid;
+}
+
+.nav-list{
+    text-decoration: none;
+    color:#4d4e53;
 }
