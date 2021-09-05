@@ -1,0 +1,36 @@
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#nav-1 {
+    border: 1px black soli;
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#nav-header {
+    font-size: 30px;
+}
+
+#unordered-list {
+    border: 1px black soli;
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#nav-1 li {
+    border: 1px black soli;
+    list-style: none;
+    position: relative;
+    border-top: 1px solid;
+    width: 100%;
+}
