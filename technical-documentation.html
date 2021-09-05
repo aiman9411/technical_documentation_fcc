@@ -11,10 +11,84 @@
             <ul id="unordered-list">
                 <li><a class="nav-list" href="#">Introduction</a></li>
                 <li><a class="nav-list" href="#">What You Should Already Know</a></li>
-                <li><a class="nav-list" href="#">Javascript & Java</a></li>
+                <li><a class="nav-list" href="#">JavaScript & Java</a></li>
                 <li><a class="nav-list" href="#">Hello World</a></li>
                 <li id="last-li"><a class="nav-list" href="#">Variables</a></li>
             </ul>
         </nav>
+
+        <main id="main-doc">
+            <section id="section-1" class="section-class">
+                <h2 class="title-class">Introduction</h2>
+                <p class="para-class">JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+                <p class="para-class">JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+                <ul>
+                    <li class="list-class">Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+                    <li class="list-class">Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+                </ul>
+            </section>
+            
+            <section id="section-2" class="section-class">
+                <h2 class="title-class">What you should already know</h2>
+                <p class="para-class">This assumes you have the following background:</p>
+                <ul>
+                    <li class="list-class">A general understanding of the Internet and the World Wide Web (WWW).</li>
+                    <li class="list-class">Good working knowledge of HyperText Markup Language (HTML).</li>
+                    <li class="list-class">Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+                </ul>
+            </section>
+
+            <section id="section-3" class="section-class">
+                <h2 class="title-class">JavaScript & Java</h2>
+                <p class="para-class">
+                    JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+                </p>
+                <p class="para-class">
+                    In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
+                </p>
+                <p class="para-class">
+                    JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
+                </p>
+            </section>
+
+            <section id="section-4" class="section-class">
+                <h2 class="title-class">Hello World</h2>
+                <p class="para-class">
+                    To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+                </p>
+                <code class="code-class">
+                    function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");
+                </code>
+                <p class="para-class">
+                    Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+                </p>
+            </section>
+
+            <section id="section-5" class="section-class">
+                <h2>Variables</h2>
+                <p class="para-class">
+                    You can declare a variable in three ways:
+                </p>
+                <p class="para-class">
+                    1. With the keyword var. For example,
+                </p>
+                <code class="code-class">
+                    var x = 42.
+                </code>
+                <p class="para-class">
+                    2. By simply assigning it a value. For example,
+                </p>
+                <code class="code-class">
+                    x = 42.
+                </code>
+                <p>
+                    3. With the keyword let. For example,
+                </p>
+                <code class="code-class">
+                    let y = 13.
+                </code>
+            </section>
+        </main>
     </body>
 </html>
